@@ -5,7 +5,7 @@ interface MapProps {
 }
 
 const Map = ({ place }: MapProps) => {
-  return <div>Map</div>;
+  return <div>{place?.name}</div>;
 };
 
 export default Map;
